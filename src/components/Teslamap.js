@@ -13,7 +13,7 @@ const center = {
 
 const Teslamap = () => {
   return (
-    <LoadScript googleMapsApiKey="AIzaSyBGkWJH3mcfkr-yCVPYPxHO3ZyfS54Go3E">
+    <LoadScript googleMapsApiKey="<Your Google Map API Key here>">
     <div style={{display: 'flex', justifyContent: 'center'}}>
       <GoogleMap
         mapContainerStyle={containerStyle}
