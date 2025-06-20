@@ -1,0 +1,16 @@
+******************************** WHAT IS THIS ***************************************
+This is the React JS based Website with the Frontend with CSS file.
+
+******************************** HOW TO USE THIS **************************************
+  1. Download this as Zip in your PC, then extract it, you can see a bunch of files and Folders
+  2. Now create your own React JS App with the Commands and then paste this in the Section of src that is under your Project name.
+  3. Create a folder or else just paste the components folder there and include it in your App.js file.
+  4. Import the Images, Icons and Fonts Folder directly under your Public Folders
+  5. Now load your website at localhost:3000 or other if customized so, can use it.
+
+******************************** IMPORTANT TO BE NOTICED *********************************
+I would added the Map to this Project from the Google API, in your case you need to create your own API to gain API key
+  1. Run this command on your Terminal of Vscode or CMD npm install @react-google-maps/api (If no NPM available, download it)
+  2. Once after the running the command, Type Google Cloud Console on your browser and enter inside the website.
+  3. In GCC, you need to create the Project with your <project-name> and then move on to Maps API and then you will see a API Key of Map, add it with your own API Key.
+  4. Once done, continue with remaining project steps, you can be able to see the Map in your Website.... also that it starts with the America, you can change the coordinates in code.
