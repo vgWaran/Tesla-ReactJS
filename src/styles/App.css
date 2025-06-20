@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../../public/Roboto/Roboto-VariableFont_wdth\,wght.ttf") format("truetype");
+}
+
+body {
+  font-family: "Roboto", 'Courier New', Courier, monospace;
+}
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.container {
+  max-width: 100%;
+}
