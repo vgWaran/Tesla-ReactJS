@@ -1,0 +1,117 @@
+/* TeslaNavbar.css */
+.mega-menu {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  background: white;
+  padding: 40px 60px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+.nav-item.dropdown {
+  position: relative;
+}
+
+.nav-item.dropdown:hover .mega-menu {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+/* Hide the default dropdown arrow */
+.navbar .dropdown-toggle::after {
+  display: none !important;
+}
+
+.mega-left {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: 0 auto;
+}
+
+
+.model-card {
+  text-align: center;
+  width: calc(25% - 30px);
+}
+
+.model-card img {
+  width: 100%;
+  height: auto;
+}
+
+.model-card h5 {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.model-card a {
+  font-size: 14px;
+  margin: 0 4px;
+  text-decoration: underline;
+  color: gray;
+}
+
+.mega-right {
+  width: 20%;
+  border-left: 1px solid #ccc;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.mega-right ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.mega-right li {
+  font-size: 15px;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 40px 60px;
+}
+
+.column {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px 20px;
+}
+
+.column h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.column ul li {
+  margin: 6px 0;
+}
+
+.column ul li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+}
+
+.column ul li a:hover {
+  text-decoration: underline;
+}
+

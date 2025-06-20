@@ -1,0 +1,70 @@
+.charge-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 60px 80px;
+  background-color: white;
+  flex-wrap: wrap;
+}
+
+.charge-left {
+  max-width: 60%;
+}
+
+.charge-left h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.charge-left p {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.charge-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.black-btn {
+  background-color: #171a20;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.light-btn {
+  background-color: #f4f4f4;
+  color: #000;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.charge-right {
+  display: flex;
+  gap: 70px;
+  align-items: center;
+}
+
+.charge-stat h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.charge-stat p {
+  font-size: 16px;
+  color: #555;
+  margin-top: 4px;
+}

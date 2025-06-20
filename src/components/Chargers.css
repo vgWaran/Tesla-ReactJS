@@ -1,0 +1,18 @@
+.charge-section {
+  background-color: #f9f9f9;
+}
+
+/* buttons already styled by Bootstrap */
+
+/* icon size */
+.stat-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+/* large, bold numbers */
+.stat-number {
+  font-size: 1.75rem;
+  font-weight: 700;
+}

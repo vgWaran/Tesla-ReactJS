@@ -1,0 +1,38 @@
+.footer {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 5%;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column; /* Ensures stacking */
+  align-items: center;
+  width: 100%; /* Prevents any overflow */
+}
+
+.footer-info {
+  max-width: 800px;
+  margin-bottom: 15px; /* Adds spacing */
+  text-align: left;
+  opacity: 0.7;
+  line-height: 1.6;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap; /* Allows multiple rows */
+  justify-content: center; /* Centers links */
+  gap: 15px; /* Adds space between links */
+}
+
+.footer-links a {
+  color: black;
+  text-decoration: none;
+  font-size: 12px;
+  display: block; /* Ensures each link is in its own row */
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}

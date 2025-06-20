@@ -1,0 +1,50 @@
+.toolbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  background-color: #f9f9f9;
+  gap: 12px;
+
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.ask-btn, .schedule-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 6px;
+  padding: 10px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  position: relative;
+  transition: box-shadow 0.2s ease;
+}
+
+.ask-btn:hover, .schedule-btn:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ask-btn .tooltip {
+  margin-left: 4px;
+  color: #999;
+  font-style: italic;
+  font-size: 13px;
+}
+
+.schedule-btn {
+  font-weight: bold;
+  color: black;
+  border-color: #d0d0d0;
+  padding-top: 11px;
+}
